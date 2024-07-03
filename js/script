@@ -1,0 +1,15 @@
+function setup(){
+    createCanvas(500,300);
+}
+
+function draw(){
+    background(145, 7, 132);
+    stroke(20, 20, 100);
+    fill(200, 200, 255)
+    circle(width/2, height/2, 50);
+    circle((width/2)+50, height/2, 50);
+    circle((width/2), (height/2)-50, 50);
+    circle((width/2)+50, height/2-50, 50);
+    fill(255, 0, 255);
+    triangle(10,70, 35,26.7, 60,70)
+}
